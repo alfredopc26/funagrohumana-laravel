@@ -14,5 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/esal', function () {
+    return view('pages.esal');
+});
+
+Route::get('/campanias', function () {
+    return view('pages.campanias');
+});
+
+Route::get('/about', function () {
+    return view('pages.quienes-somos');
+});
+
+Route::get('/wedo', function () {
+    return view('pages.lo-que-hacemos');
+});
+
+Route::get('/apoyanos', function () {
+    return view('pages.apoyanos');
+});
+
+Route::get('/contactanos', function () {
+    return view('pages.contactanos');
 });
