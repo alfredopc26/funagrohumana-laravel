@@ -1140,14 +1140,14 @@ figcaption {
 }
 
 .nav-link {
-  margin-right: 5px;
-  margin-left: 5px;
-  padding: 5px 3px 5px 8px;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  padding: 5px 3px 5px 8px !important;
   border-right: 1px none #c5b611;
   border-left: 1px solid #c7d534;
   -webkit-transition-property: none;
   transition-property: none;
-  color: #fff;
+  color: #fff !important;
   font-size: 14px;
   line-height: 20px;
   text-align: right;
@@ -1168,7 +1168,7 @@ figcaption {
     border-left: 1px solid #c7d534;
     -webkit-transition-property: none;
     transition-property: none;
-    color: rgba(130, 186, 38, 0.75);
+    color: rgba(130, 186, 38, 0.75) !important;
     font-size: 14px;
     line-height: 20px;
     text-align: right;
